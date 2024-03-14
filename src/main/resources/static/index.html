@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Vendor Form</title>
+</head>
+<body>
+    <h1>Cloud Vendor Form</h1>
+    <form action="http://localhost:8082/cloudvendor" method="POST">
+        <p>VendorId:</p>
+        <input type="text" name="vendorId" required minlength="5">
+        <p>VendorName:</p>
+        <input type="text" name="vendorName" required minlength="5">
+        <p>VendorAddress:</p>
+        <input type="text" name="vendorAddress" minlength="10">
+        <p>PhoneNumber:</p>
+        <input type="text" name="phoneNumber" minlength="10"> <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
